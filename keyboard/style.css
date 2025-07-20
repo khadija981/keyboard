@@ -1,0 +1,66 @@
+   * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: rgb(151, 207, 207);
+      font-family: monospace;
+    }
+
+  
+
+    table {
+      /* border-collapse: collapse; */
+      margin: 0 auto;
+        width: 30%;
+     
+     padding-top: 15%;
+     border-radius: 20px;
+   
+    }
+
+    td {
+        /* border: 5px groove black;  */
+        
+      border-radius: 7px;
+      padding: 7px;
+      text-align: center;
+      font-size: 16px;
+      background-color:  rgb(151, 207, 207);
+      box-shadow: 3px 3px 3px 3px grey;
+      
+      
+    }
+
+    td:hover {
+      background-color: black;
+      color: white;
+    }
+
+    /* Responsive tweaks */
+    @media (max-width: 768px) {
+      td tr table {
+        font-size: 8px;
+        padding: 3px;
+        width: 25%;
+      }
+
+      table {
+        min-width: 650px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      td {
+        font-size: 8px;
+        padding: 2px;
+        width: 10%;
+        padding-top: 2%;
+      }
+
+      table {
+        min-width: 400px;
+      }
+    }
